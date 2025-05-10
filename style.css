@@ -1,55 +1,41 @@
-"url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-￼
-￼
-2		-
-3		-
-:root {
-4		-
-    --cor-principal: #6E859F;
-5		-
-    --cor-secundaria: #284260;
-6		-
-    --cor-destaque: #C92BFC;
-7		-
-}
-8		-
-9		-
-body {
-10		-
+url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root {		
+    --cor-principal: #6E859F;		
+    --cor-secundaria: #284260;		
+    --cor-destaque: #C92BFC;		
+}				
+body {		
     font-family: 'Chakra Petch', sans-serif;
-11		-
-    color: var(--cor-principal);
-12		-
-}
-13		-
-14		-
+	
+    color: var(--cor-principal);	
+}		
+	
 h1, h2, h5 {
-15		-
+		-
     color: var(--cor-secundaria);
-16		-
+		-
     font-weight: 700;
-17		-
+		
 }
-18		-
-19		-
+
+
 .lead, .btn-link {
-20		-
-    color: var(--cor-destaque);
-21		-
+	-
+    color: var(--cor-destaque);		-
     font-weight: 700;
-22		-
+	-
 }
-23		-
-24		-
+	-
+	-
 a, .btn-link:hover {
-25		-
+		-
     color: var(--cor-principal)
-26		-
+	-
 }
-27		-
-28		-
+	-
+	-
 a:hover{
-29		-
+	-
     color: var(--cor-destaque);
-30		-
-}"
+	-
+}
